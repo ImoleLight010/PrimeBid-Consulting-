@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — PrimeBid Consulting</title>
+<meta name="description" content="Sample work and case studies from PrimeBid Consulting.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="Portfolio — PrimeBid Consulting">
+<meta property="og:description" content="Sample work and case studies from PrimeBid Consulting.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://YOUR-SITE.netlify.app/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="logo-small.png" alt="PrimeBid Consulting logo" width="46" height="46"><span>Prime<b>Bid</b><small>Consulting</small></span></a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="btn btn-primary" style="padding:.55rem 1.1rem;color:#111;border:0" href="contact.html">Let's Work Together</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<div class="page-hero"><div class="container"><h1>Our <span class="gold">Portfolio</span></h1><p>Examples of how we approach and structure winning submissions.</p></div></div>
+
+<section>
+  <div class="container">
+    <div class="placeholder-note"><strong>Edit before publishing:</strong> replace these sample entries with your real projects (anonymise client names if needed). Only publish results and figures you can verify.</div>
+    <div class="grid grid-3">
+      <article class="card case">
+        <span class="meta">Public Sector · Facilities</span>
+        <h3>Planned Maintenance Contract</h3>
+        <p>Full tender response for a multi-site maintenance contract.</p>
+        <ul><li>Scope: method statements, case studies</li><li>Outcome: [add result]</li></ul>
+      </article>
+      <article class="card case">
+        <span class="meta">Grants · Non-profit</span>
+        <h3>Community Programme Grant</h3>
+        <p>Grant proposal with objectives, budget narrative and impact measures.</p>
+        <ul><li>Scope: full grant proposal</li><li>Outcome: [add result]</li></ul>
+      </article>
+      <article class="card case">
+        <span class="meta">Commercial · Services</span>
+        <h3>RFP Response</h3>
+        <p>Technical and financial proposal with delivery plan and risk management.</p>
+        <ul><li>Scope: technical &amp; financial proposals</li><li>Outcome: [add result]</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Client feedback</span><h2>What clients say</h2></div>
+    <div class="placeholder-note"><strong>Owner note (delete before launch):</strong> paste real client quotes here, with their permission, using the card template below. Don't publish invented reviews.</div>
+    <!-- TESTIMONIAL TEMPLATE: copy this card, fill it in, and remove the comment markers
+    <div class="card">
+      <p>"Paste the client's exact words here."</p>
+      <p style="margin-top:1rem"><strong style="color:var(--gold)">Client Name</strong><br>Role, Organisation</p>
+    </div>
+    -->
+    <div class="grid grid-3" id="testimonials"></div>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div>
+      <span class="eyebrow">Worked with us?</span>
+      <h2>Share your feedback</h2>
+      <p>We'd value your honest review. With your permission, we may feature it on this page.</p>
+    </div>
+    <form name="review" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="review">
+      <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
+      <div><label for="rname">Your name</label><input id="rname" name="name" required></div>
+      <div><label for="rrole">Role &amp; organisation</label><input id="rrole" name="role"></div>
+      <div><label for="rrating">Rating</label>
+        <select id="rrating" name="rating"><option>5 - Excellent</option><option>4 - Very good</option><option>3 - Good</option><option>2 - Fair</option><option>1 - Poor</option></select></div>
+      <div><label for="rmessage">Your feedback</label><textarea id="rmessage" name="message" rows="4" required></textarea></div>
+      <div><label style="display:flex;gap:.6rem;align-items:flex-start;font-weight:400"><input type="checkbox" name="permission" value="yes" style="width:auto;margin-top:.3rem"> I give permission for this feedback to be published on the PrimeBid Consulting website.</label></div>
+      <button class="btn btn-primary" type="submit">Submit Feedback</button>
+    </form>
+  </div>
+</section>
+</main>
+<section class="cta"><div class="container"><h2>Want a response like these for your tender?</h2><p>Share the opportunity and we'll scope it for you.</p><a class="btn btn-primary" href="contact.html">Let's Work Together →</a></div></section>
+<footer class="site">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="fbrand"><img src="logo-small.png" alt="" width="44" height="44"><span>PrimeBid Consulting</span></div>
+        <p>Turning opportunities into winning proposals.</p>
+      </div>
+      <div><h4>Pages</h4><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:primebidconsultanting@gmail.com">primebidconsultanting@gmail.com</a></li><li><a href="tel:+2349129051967">+234 912 905 1967</a></li><li>Abuja, Nigeria</li></ul></div>
+    </div>
+    <div class="copy">© <span id="year">2026</span> PrimeBid Consulting. All rights reserved.</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
